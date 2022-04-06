@@ -10,7 +10,53 @@
 </head>
 
 <body>
-    <h1>let's practive making a sign-up form.</h1>
+    <main>
+        <section class="side-bar">
+            <div class="logo-container">
+                <p><span class="logo">logo</span>Harry</p>
+            </div>
+        </section>
+        <section class="form-container">
+            <div class="form-description">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br>Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <div class="form">
+                <p>Let's do this!</p>
+                <form action="">
+                    <div class="background-pop-form">
+                        <div class="each-input">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name">
+                        </div>
+                        <div class="each-input">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last-name">
+                        </div>
+                        <div class="each-input">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="each-input">
+                            <label for="phone-number">PHONE NUMBER(123-4567-8901)</label>
+                            <input type="tel" id="phone-number" name="phone-number" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}">
+                        </div>
+                        <div class="each-input">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="each-input">
+                            <label for="password-confirm">CONFIRM PASSWORD</label>
+                            <input type="password" id="password-confirm" name="password-confirm" required>
+                        </div>
+                    </div>
+                    <button type="submit" id="create-account-btn">Create Account</button>
+                </form>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+        </section>
+    </main>
+
 </body>
 
 </html>

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+}
+
+.side-bar {
+    background: url("images/chris-lee-70l1tDAI6rM-unsplash.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: max(30vw, 200px);
+}
+
+.logo-container {
+    font-family: 'Merriweather', serif;
+    margin-top: 30vh;
+    font-size: 2.5em;
+    color: white;
+    background-color: rgb(0, 0, 0, .5);
+    width: 100%;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding-left: 30px;
+}
+
+.form-description {
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+.background-pop-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#create-account-btn {
+    margin-top: 15px;
+}
+
+.each-input {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.form p {
+    font-size: 1.5rem;
+}
+
+label {
+    font-size: 0.7rem;
+}
