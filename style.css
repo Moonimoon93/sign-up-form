@@ -125,3 +125,18 @@ input:focus {
     border-radius: 5px;
     box-shadow: 2px 2px lightblue;
 }
+
+@media (max-width: 600px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    .side-bar {
+        width: 100vw;
+        height: max(20vh, 200px);
+        justify-content: center;
+    }
+    .logo-container {
+        margin: 0;
+    }
+}
