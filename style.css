@@ -138,5 +138,9 @@ input:focus {
     }
     .logo-container {
         margin: 0;
+        font-size: 7vw;
+    }
+    img.logo-img {
+        height: 14vw;
     }
 }
